@@ -79,9 +79,14 @@
 }
 .login .imagem{
     width: 50%;
-    height: 98vh;
+    height: 114vh;
+    background: url(img/imagem\ 1\ da\ tela\ de\ login.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
 
 }
+
+
 
 
 
