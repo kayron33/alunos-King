@@ -16,7 +16,7 @@ body{
     height: 100%;
     background-color: #202020;
     padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 #FF0077;
+    box-shadow: 3px 0 0 white;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,10 +53,12 @@ ul .item-menu{
     transition: .8s;
 }
 ul li.ativo{
-    background-color: #FF0077;
+    background-color: #f0f0f077;
+    color: black;
+
 }
 ul .item-menu:hover{
-    background-color: #FF0077;
+    background-color: rgba(0, 0, 0, 0.329);
 }
 
 ul .item-menu .txt-link{
@@ -215,110 +217,124 @@ main h1{
 
 /*main*/
 /*index*/
-.index2{
-   
-    height: 100%;
+.index{
     width: 95%;
-    margin-left: 4rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
-
-}
-.msg{
-    text-align: center;
-    font-size: 4rem;
-    padding-bottom: 7rem;
-}
-
-
-/*banner*/
-.banner-img{
-   
-    gap: .9rem;
-    display: flex;
-    align-items: center;
-   gap: 3rem;
-    width: 100%;
     height: 100%;
+    background-color: black;
+    color: #000;
+
 }
-.banner-img .box1{
-filter: brightness(60%);
-    color: white;
-    font-family: "Anton SC", sans-serif;
+
+/*banner*/
+.banner{
+    background-color: white;
+    padding-top: .9rem;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.164);
+}
+.txt{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(img/imagem\ 1\ da\ tela\ de\ login.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white;
-    transition: .9s;
+width: 50%;
+height: 100%;
 }
-.banner-img .box1:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
+.txt h1{
+    margin-top: 3.5rem;
 }
-.banner-img .box2{
-    filter: brightness(60%);
-    font-family: "Anton SC", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(img/imagem\ 2\ da\ tela\ de\ login.jpg) bottom no-repeat;
-    background-position: center;
-   
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white ;
-    transition: .9s;
+.txt h1 span{
+    color: blue;
+    font-weight: 700;
+    
 }
-.banner-img .box2:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
+.txt p{
+    margin: 1.2rem;
 }
-.banner-img .box3{
-    filter: brightness(60%);
-    font-family: "Anton SC", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(img/imagem\ 3\ da\ tela\ de\ login\ .jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white ;
-    transition: .9s;
+.imagem-ba{
+    width: 50%;
+    height: 100%;
+
 }
-.banner-img .box3:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
-}
-@media (max-width:600px){
-    .banner-img{
-   
-        gap: .9rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       gap: 3rem;
-        width: 100%;
-        height: 100%;
-    }
-    .banner-img .box1{
-        width: 300px;
-}
+.imagem-ba img{
+    width: 100%;
+
 }
 
 
 /*banner*/
+/*subtitulo*/
+.h1-sub{
+    margin-top: 1.2rem;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+.sub-titulo{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.233);
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+.sub-titulo .box-carreira{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sub-titulo .box-carreira .icone{
+    border-radius: 50%;
+   top: 0px;
+   margin: .9rem;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sub-titulo .box-carreira .icone i{
+    font-size: 42px;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 3rem;
+    color: white;
+}
+.sub-titulo .box-carreira .icone h2{
+    text-align: center;
+    padding-top: 3rem;
+}
+.sub-titulo .box-carreira .text-box{
+    background-color: black;
+    border-radius: 0 0 20px 20px ;
+    font-size: 1.4rem;
+    margin-top: 7rem;
+    width: 100%;
+    height: 50%;
+    color: white;
+    border: 1px solid black;
+    
+    
+    
+}
+
+
+
+
+/*subtitulo*/
 
 /*planos*/
 .planos{
