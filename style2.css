@@ -353,7 +353,7 @@ main h1{
    
         height: 100%;
         width: 95%;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         color: white;
         display: flex;
         flex-direction: column;
@@ -505,7 +505,7 @@ main h1{
     .atividade{
         width: 95%;
         height: 100%;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
        
     
     }
