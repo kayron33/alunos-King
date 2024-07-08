@@ -230,96 +230,6 @@ main h1{
     font-size: 4rem;
     padding-bottom: 7rem;
 }
-
-
-/*banner*/
-.banner-img{
-   
-    gap: .9rem;
-    display: flex;
-    align-items: center;
-   gap: 3rem;
-    width: 100%;
-    height: 100%;
-}
-.banner-img .box1{
-filter: brightness(60%);
-    color: white;
-    font-family: "Anton SC", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(img/imagem\ 1\ da\ tela\ de\ login.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white;
-    transition: .9s;
-}
-.banner-img .box1:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
-}
-.banner-img .box2{
-    filter: brightness(60%);
-    font-family: "Anton SC", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(img/imagem\ 2\ da\ tela\ de\ login.jpg) bottom no-repeat;
-    background-position: center;
-   
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white ;
-    transition: .9s;
-}
-.banner-img .box2:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
-}
-.banner-img .box3{
-    filter: brightness(60%);
-    font-family: "Anton SC", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(img/imagem\ 3\ da\ tela\ de\ login\ .jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 250px;
-    border:1px solid white ;
-    transition: .9s;
-}
-.banner-img .box3:hover{
-    transform: scale(.9);
-    filter: brightness(100%);
-}
-@media (max-width:600px){
-    .banner-img{
-   
-        gap: .9rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       gap: 3rem;
-        width: 100%;
-        height: 100%;
-    }
-    .banner-img .box1{
-        width: 300px;
-}
-}
-
-
-/*banner*/
-
 /*planos*/
 .planos{
     display: flex;
@@ -438,98 +348,175 @@ filter: brightness(60%);
     color: white;
 
   }
+  @media(max-width:600px){
+    .index2{
+   
+        height: 100%;
+        width: 95%;
+        margin-left: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .planos{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+        padding: .9rem;
+    }
+  }
   
 /*planos*/
-/*index*/
-
-/* ATIVIDADES*/
-.atividades{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 2rem;
+/*beneficios*/
+.beneficios{
+   width: 100%;
+   height: 100%;
 }
-.card {
-    position: relative;
-   margin-top: 1.9rem;
-    width: 300px;
-    height: 200px;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .card svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .card:hover {
-    transform: rotate(.1deg);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
+.beneficios h1{
+    text-align: center;
+    width: 100%;
+}
+.beneficios-box{
     width: 100%;
     height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #fff;
-    opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .card:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-  
-  .card__title {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-    font-weight: 700;
-  }
-  
-  .card__description {
-    margin: 10px 0 0;
-    font-size: 14px;
-    color: #777;
-    line-height: 1.4;
-  }
-  
-  .card:hover svg {
-    scale: 0;
-    transform: rotate(-45deg);
-  }
-  
-  @media (max-width:600px){
-    .atividade{
-    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.beneficios-box .bene-box1{
+    margin: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        
+    border: 1px solid  white;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1s;
+}
+.beneficios-box .bene-box1:hover{
+    background-color: #cccbcb;
+}
+.beneficios-box .bene-box1 .icone-bene1{
+    padding: 1.9rem;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+    margin-top: .9rem;
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+.beneficios-box .bene-box1 .icone-bene1:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    transform: scale(0.9);
+    
+}
+.beneficios-box .bene-box1 span{
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .9rem;
+
+}
+
+@media(max-width:600px){
+    .beneficios-box{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
         
     }
-    .atividades{
-      margin: auto;
-        width: 80%;
+  }
+
+/*beneficios*/
+
+/*index*/
+
+/* ATIVIDADES*/
+.atividade{
+    width: 95%;
+    height: 100%;
+    margin-left: 4rem;
+   
+
+}
+.atividade h3{
+    text-align: center;
+    margin-top: 1.2rem;
+}
+.principais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-at1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.322);
+    margin: 1.2rem;
+}
+.box-at1 .img-at1{
+    width: 300px;
+    height: 100%;
+
+}
+.box-at1 .img-at1 img{
+    width: 100%;
+
+}
+.box-at1 .sobre-at1 h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.box-at1 .sobre-at1 .descricao-at1{
+    text-align: justify;
+    width: 190px;
+}
+.box-at1 .at-button{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    width: 100%;
+    transition: 1s;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+.box-at1 .at-button:hover{
+    background-color: transparent;
+    color: white;
+    transform: scale(1.0);
+}
+.assuntos-at1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: .9rem;
+}
+@media (max-width:600px){
+    .atividade{
+        width: 95%;
+        height: 100%;
+        margin-left: 1rem;
+       
+    
+    }
+    
+    .principais{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        
     }
-    .card {
-       width: 250px;
-      }
-  }
-  
+    .assuntos-at1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: .9rem;
+    }
+}
