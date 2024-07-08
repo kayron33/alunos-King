@@ -236,6 +236,7 @@ main h1{
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    height: 104vh;
 }
 .pack-container {
     position: relative;
