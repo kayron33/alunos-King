@@ -8,13 +8,13 @@ body{
 }
 
 /*Menu lateral*/
- .menu-lateral{
+.menu-lateral{
     z-index: 1000;
     width: 50px;
     height: 100%;
     background-color: #202020;
     padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 #FF0077;
+    box-shadow: 3px 0 0 white;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,10 +51,11 @@ ul .item-menu{
     transition: .8s;
 }
 ul li.ativo{
-    background-color: #FF0077;
+    background-color: #9c9c9c;
 }
 ul .item-menu:hover{
-    background-color: #FF0077;
+    background-color: rgba(0, 0, 0, 0.466);
+    
 }
 
 ul .item-menu .txt-link{
@@ -144,6 +145,16 @@ main .comentarios h1{
     width: 100%;
     border-radius: 50%;
 }
+.pag-at2{
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}
+.pag-at p{
+    text-align: justify;
+    margin-top: 2.5rem;
+}
+
 
 @media (max-width:600px){
 
@@ -171,6 +182,12 @@ main .comentarios h1{
         height: 200px;
         background-color: white;
         color: white;
+    }
+    .pag-at2{
+        margin-top: 1.9rem;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
     }
     main .aulas a{
         font-family: Arial, Helvetica, sans-serif;
