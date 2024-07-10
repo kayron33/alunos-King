@@ -17,7 +17,6 @@
 <h1>KING</h1>
 <p>Jesus te ama</p>
     <form action="" method="post">
-    <span>Login</span>
     <label for="">Seu email</label>
     <input type="email" name="" id="">
     <label for="">Sua senha</label>
