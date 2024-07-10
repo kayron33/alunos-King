@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 img{
@@ -10,10 +11,12 @@ img{
 
 header{
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
     transition: .9s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.055);
 }
 
 header .logo{
@@ -62,6 +65,7 @@ header .menu-opitions a:hover{
     justify-content: center;
 }
 .king-conteudo{
+  width: 50%;
     margin-block-end: 60px ;
     margin-right: 1.9rem;
 }
@@ -72,7 +76,7 @@ header .menu-opitions a:hover{
     margin-block-end: 15px ;
 }
 .king-titulo{
-    font-size:1.9rem;
+    font-size:3.9rem;
     color: white;
     margin-block-end: 20px ;
 
@@ -97,13 +101,30 @@ header .menu-opitions a:hover{
         width: 300px;
         height: 300px;
     }
+    .king-conteudo{
+
+      width: 90%;
+      height: 50%;
+      margin-block-end: 60px ;
+    
+    }
+    .king-p{
+    font-size: .9rem;
+   
+  }
+    .king-titulo{
+      font-size:1.7rem;
+      color: white;
+      margin-block-end: 20px ;
+  
+  }
 }
 
 
 /*FIM DO DESTAQUE DA KING*/
 /*INICIO DOS PLANOS DA KING*/
 .planosh1{
-    
+    margin-top: 2.5rem;
     text-align: center;
     color: black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.199);
@@ -270,8 +291,14 @@ header .menu-opitions a:hover{
 }
 .Atividade-page .text-at h1{
     margin-bottom: 1.7rem;
+    font-size: 2.9rem;
+
+}
+.Atividade-page .text-at p{
+  font-size: 1.7rem;
 }
 .btn-at{
+  margin-top: 2.9rem;
   padding: 1.2rem;
   width: 100%;
   background-color: black;
@@ -294,12 +321,18 @@ header .menu-opitions a:hover{
 
 
 }
+.Atividade-page .text-at h1{
+  font-size: 1.9rem;
+}
 .Atividade-page .imagem-at{
   width: 100%;
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Atividade-page .text-at p{
+  font-size: 1.3rem;
 }
 }
 

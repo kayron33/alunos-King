@@ -23,7 +23,7 @@ require_once "header.php"
         </p>
     
         <a class="action" href="sitedeatividade.php">
-          desejo fazer esta!
+          Vamos la!
           <span aria-hidden="true">
             →
           </span>
@@ -48,62 +48,7 @@ require_once "header.php"
         </p>
     
         <a class="action" href="#">
-          desejo fazer esta!
-          <span aria-hidden="true">
-            →
-          </span>
-        </a>
-      </div>
-    </div>
-    
-    
-    
-    
-    
-    
-    <div class="card">
-     <div class="image"></div>
-      <div class="content">
-        <a href="#">
-          <span class="title">
-            Site de vendas
-          </span>
-        </a>
-    
-        <p class="desc">
-         faça um site de vendas responsivo para bublicar
-        </p>
-    
-        <a class="action" href="#">
-          desejo fazer esta!
-          <span aria-hidden="true">
-            →
-          </span>
-        </a>
-      </div>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="card">
-     <div class="image"></div>
-      <div class="content">
-        <a href="#">
-          <span class="title">
-            Site de vendas
-          </span>
-        </a>
-    
-        <p class="desc">
-         faça um site de vendas responsivo para bublicar
-        </p>
-    
-        <a class="action" href="#">
-          desejo fazer esta!
+          Vamos la!
           <span aria-hidden="true">
             →
           </span>
@@ -130,7 +75,62 @@ require_once "header.php"
         </p>
     
         <a class="action" href="#">
-          desejo fazer esta!
+          Vamos la!
+          <span aria-hidden="true">
+            →
+          </span>
+        </a>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="card">
+     <div class="image"></div>
+      <div class="content">
+        <a href="#">
+          <span class="title">
+            Site de vendas
+          </span>
+        </a>
+    
+        <p class="desc">
+         faça um site de vendas responsivo para bublicar
+        </p>
+    
+        <a class="action" href="#">
+          Vamos la!
+          <span aria-hidden="true">
+            →
+          </span>
+        </a>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="card">
+     <div class="image"></div>
+      <div class="content">
+        <a href="#">
+          <span class="title">
+            Site de vendas
+          </span>
+        </a>
+    
+        <p class="desc">
+         faça um site de vendas responsivo para bublicar
+        </p>
+    
+        <a class="action" href="#">
+          Vamos la!
           <span aria-hidden="true">
             →
           </span>
@@ -156,7 +156,7 @@ require_once "header.php"
         </p>
     
         <a class="action" href="#">
-          desejo fazer esta!
+          Vamos la!
           <span aria-hidden="true">
             →
           </span>

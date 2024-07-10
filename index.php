@@ -15,8 +15,6 @@ require_once "header.php"
             </script>
         </h2>
         
-
-        <a href="produtos(1).php"><button class="btn">Veja</button></a>
     </div>
     <figure class="king-banner">
         <img src="img/imagem-para destaque.jpg" alt="" width="694" height="529" loading="lazy"

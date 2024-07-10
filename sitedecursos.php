@@ -23,21 +23,16 @@ require_once "header.php"
         
         <section class="comentarios">
         
-        <div class="form-container">
-              <form class="form">
-                <div class="form-group">
-                  <label for="email">Seu nome</label>
-                  <input type="text" id="email" name="email" required="">
-                </div>
-                <div class="form-group">
-                  <label for="textarea">Como foi sua experiencia com essa atividade?</label>
-                  <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
-                </div>
-                <button class="form-submit-btn" type="submit">enviar</button>
-              </form>
-            </div>
+      <div class="formulario">
+        <form action="" method="post">
+          <label for="nome">Seu nome</label>
+        <input type="text" name="" id="">
+        <label for="">O que você achou dessa aula?</label>
+       <textarea class="comentario" name="" id=""></textarea>
+        </form>
         
-        
+        <a href=""><button>Enviar</button></a>
+      </div>
         
         
         </section>
